@@ -1,0 +1,28 @@
+<!doctype html>
+<html>
+    <head>
+        <title>K-MEANS</title>
+        <meta charset='utf-8' />
+    </head>
+    <link rel="stylesheet" href="css/styles.css">
+    <body>
+        <div class="app-frame-parent-div">
+            <div class="toolbar-div">
+                <div class="toolbar-inputs-div">
+                    <input id="observation-input" placeholder="Observations" />
+                    <input id="clusters-input" placeholder="Clusters" />
+                </div>
+                <div class="toolbar-buttons-div">
+                    <button id="prepare-btn">Prepare</button>
+                    <button id="run-btn">Run algorithm</button>
+                </div>
+            </div>
+          
+            <div class="canvas-div">
+                <canvas id="canvas" class="canvas">Browser doesn't support canvas</canvas>
+            </div>
+        </div>
+
+        <script src="js/index.js" type="module"></script>
+    </body>
+</html>
